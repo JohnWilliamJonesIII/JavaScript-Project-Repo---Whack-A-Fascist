@@ -46,6 +46,11 @@ if (currentTime == 0){
     clearInterval(countDownTimerId)
     clearInterval(timerId)
     alert('GAME OVER: FINAL SCORE = ' + ' ' + result)
+    currentTime+=60
+    currentTime--
+    timeCounter.textContent = currentTime
+    countDownTimerId = setInterval(countDown, 1000)
+    
 }
 }
 
