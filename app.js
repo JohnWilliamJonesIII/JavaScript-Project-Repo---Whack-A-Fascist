@@ -1,5 +1,5 @@
 const squares = document.querySelectorAll('.square')
-const mole = document.querySelectorAll('.mole')
+const putin = document.querySelectorAll('.putin')
 const timeCounter = document.querySelector('#timeCounter')
 const score = document.querySelector('#score')
 
@@ -7,10 +7,10 @@ let result = 0
 
 function randomMoleHole(){
     squares.forEach(square => {
-        square.classList.remove('mole')
+        square.classList.remove('putin')
     })
 
-    let randomMoleHolePosition = squares[Math.floor(Math.random() * 9)]
+    let randomPutinHolePosition = squares[Math.floor(Math.random() * 9)]
 }
 
 
