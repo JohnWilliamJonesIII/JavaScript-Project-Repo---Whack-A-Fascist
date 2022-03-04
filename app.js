@@ -44,7 +44,7 @@ timeCounter.textContent = currentTime
 
 if (currentTime == 0){
     clearInterval(countDownTimerId)
-    cleatInterval(timerId)
+    clearInterval(timerId)
     alert('GAME OVER: FINAL SCORE = ' + ' ' + result)
 }
 }
