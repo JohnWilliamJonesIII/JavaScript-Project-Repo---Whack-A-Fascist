@@ -5,12 +5,15 @@ const score = document.querySelector('#score')
 
 let result = 0
 
-function randomMoleHole(){
+function randomPutinHole(){
     squares.forEach(square => {
         square.classList.remove('putin')
     })
 
     let randomPutinHolePosition = squares[Math.floor(Math.random() * 9)]
+    randomPutinHolePosition.classList.add('putin')
 }
+
+randomPutinHole()
 
 
