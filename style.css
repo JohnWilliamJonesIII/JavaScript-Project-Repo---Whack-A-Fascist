@@ -12,7 +12,14 @@
   border-color: black;
   border-width: 2px;
 }
+.yellowSquare {
+  background-color: yellow;
+}
+.blueSquare {
+  background-color: blue;
+}
 
 .putin {
-  background-color: blue;
+  background-image: url("media/putin.png");
+  background-color: red;
 }
